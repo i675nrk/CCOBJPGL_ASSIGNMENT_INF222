@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="569.0" prefWidth="471.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Text layoutX="43.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Customer Bill" wrappingWidth="129.6876220703125">
+         <font>
+            <Font name="Arial Narrow" size="17.0" />
+         </font></Text>
+      <Text layoutX="152.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Product">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Label fx:id="price1" layoutX="366.0" layoutY="222.0" text="Label">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font></Label>
+      <Label fx:id="price3" layoutX="366.0" layoutY="302.0" text="Label">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font></Label>
+      <Label fx:id="price2" layoutX="367.0" layoutY="260.0" text="Label">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font></Label>
+      <Label fx:id="qty1" layoutX="58.0" layoutY="222.0" text="Label">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font></Label>
+      <Label fx:id="qty2" layoutX="58.0" layoutY="265.0" text="Label">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font></Label>
+      <Label fx:id="qty3" layoutX="58.0" layoutY="307.0" text="Label">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font></Label>
+      <Label fx:id="name1" layoutX="152.0" layoutY="218.0" prefHeight="28.0" prefWidth="169.0" text="Label">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="name2" layoutX="152.0" layoutY="261.0" prefHeight="28.0" prefWidth="169.0" text="Label">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="name3" layoutX="152.0" layoutY="304.0" prefHeight="28.0" prefWidth="169.0" text="Label">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Line endX="383.0000305175781" endY="3.814697265625E-6" layoutX="88.0" layoutY="80.0" startX="-100.0" />
+      <Text layoutX="43.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MOA Square, Mall of Asia Complex Marina Way Pasay, Metro Manila" wrappingWidth="380.354248046875">
+         <font>
+            <Font name="Arial Narrow" size="15.0" />
+         </font>
+      </Text>
+      <Line endX="383.0000305175781" endY="3.814697265625E-6" layoutX="92.0" layoutY="158.0" startX="-100.0" />
+      <Text layoutX="58.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="QTY">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="366.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AMT">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Line endX="370.0" layoutX="101.0" layoutY="355.0" startX="-100.0" />
+      <Text layoutX="59.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Amount">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="97.0" layoutY="431.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Label fx:id="totalLabel" layoutX="365.0" layoutY="373.0" text="Label">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="87.0" fitWidth="228.0" layoutX="122.0" layoutY="468.0">
+         <image>
+            <Image url="@../images/barcode.png" />
+         </image>
+      </ImageView>
+      <Line endX="370.0" layoutX="101.0" layoutY="418.0" startX="-100.0" />
+      <Text layoutX="133.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thank you for your purchase!">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Pane layoutX="28.0" layoutY="70.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="64.0" layoutY="70.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="100.0" layoutY="70.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="137.0" layoutY="70.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="173.0" layoutY="71.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="211.0" layoutY="69.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="245.0" layoutY="69.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="283.0" layoutY="69.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="324.0" layoutY="69.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="360.0" layoutY="69.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="400.0" layoutY="69.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="438.0" layoutY="71.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="29.0" layoutY="147.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="64.0" layoutY="149.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="38.0" layoutY="347.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="438.0" layoutY="148.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="407.0" layoutY="149.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="101.0" layoutY="147.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="137.0" layoutY="148.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="172.0" layoutY="149.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="211.0" layoutY="150.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="253.0" layoutY="149.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="292.0" layoutY="149.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="331.0" layoutY="147.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="368.0" layoutY="148.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="79.0" layoutY="344.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="121.0" layoutY="337.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="156.0" layoutY="339.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="193.0" layoutY="337.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="229.0" layoutY="338.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="264.0" layoutY="339.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="303.0" layoutY="340.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="345.0" layoutY="339.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="384.0" layoutY="339.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="423.0" layoutY="337.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="37.0" layoutY="406.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="72.0" layoutY="408.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="109.0" layoutY="406.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="145.0" layoutY="407.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="180.0" layoutY="408.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="219.0" layoutY="409.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="261.0" layoutY="408.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="300.0" layoutY="408.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="339.0" layoutY="406.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="383.0" layoutY="410.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <Pane layoutX="425.0" layoutY="409.0" prefHeight="20.0" prefWidth="16.0" style="-fx-background-color: white;" />
+      <ImageView fitHeight="76.0" fitWidth="142.0" layoutX="166.0" layoutY="5.0">
+         <image>
+            <Image url="@../images/ikea2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
